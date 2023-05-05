@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    float: left;
+    align-items: center;
+}
+.navigation{
+    overflow: hidden;
+}
+ .navigation a{
+    text-decoration: none;
+    color: black;
+ }
+ .navigation ul{
+    list-style: none;
+ }
+ .drop1{
+    display: none;
+ }
+ .drop1 a{
+    display: block;
+ }
+ .drop2{
+    display: none;
+ }
+ .drop2 a{
+    display: block;
+ }
+
+ .navigation:hover .drop1{
+    display: block;
+ }
+ .navigation:hover .drop2{
+    display: block;
+ }
+
+ 
