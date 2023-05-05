@@ -5,22 +5,32 @@ nav{
 }
 .navigation{
     overflow: hidden;
+    
 }
  .navigation a{
     text-decoration: none;
     color: black;
+    text-align: center;
+    padding: 14px 16px;
+
  }
  .navigation ul{
     list-style: none;
  }
  .drop1{
     display: none;
+    float: left;
+    overflow: hidden;
+    z-index: 1;
  }
  .drop1 a{
     display: block;
+    
  }
  .drop2{
     display: none;
+    float: left;
+    overflow: hidden;
  }
  .drop2 a{
     display: block;
