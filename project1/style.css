@@ -1,33 +1,31 @@
-nav{
-    display: flex;
-    float: left;
-    align-items: center;
-}
+
 .navigation{
     overflow: hidden;
     
 }
  .navigation a{
     text-decoration: none;
+    float: left;
+    font-size: 16px;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 16px;
 
  }
  .navigation ul{
     list-style: none;
  }
- .drop1{
+ .navigation .drop1{
     display: none;
     float: left;
     overflow: hidden;
     z-index: 1;
  }
- .drop1 a{
+ .navigation .drop1 a{
     display: block;
     
  }
- .drop2{
+ .navigation .drop2{
     display: none;
     float: left;
     overflow: hidden;
@@ -43,4 +41,7 @@ nav{
     display: block;
  }
 
+ .main{
+    float: left;
+ }
  
